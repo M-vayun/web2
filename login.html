@@ -1,0 +1,107 @@
+<html>
+
+<head>
+	<title>VR Nexus</title>
+	<link rel="stylesheet" href="./bootstrap.css">
+	<style>
+	body{
+		background-image:url('bg4.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		}
+	.navbar-brand:hover{
+			background-color: #008080;
+	}
+	.nav-link:hover{
+			background-color: #008080;
+	}
+	.card{
+		text-align:center;
+	}
+	.styled-button{
+			background-color: #FF007F;
+			borde: none;
+			color:white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 4px;
+			cursor: pointer;
+	}
+	.styled-button:hover {
+			background-color: #008080;
+	}
+	.button-container{
+			text-align:center;
+		}
+	.container{
+			margin: 120px ;
+			width: 1000px;
+			max-width: 100%;
+			
+	}
+	</style>
+</head>
+
+
+
+
+<body>
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+		<a href="#" class="navbar-brand" style="color:white" >VR Nexus</a>
+		<div class="ml-auto">
+			<ul class="navbar-nav">
+				<li><a class="nav-link" href="./index.html">Home</a></li>
+				<li><a class="nav-link" href="./about.html">About</a></li>
+				<li><a class="nav-link" href="./contact.html">Contact</a></li>
+				<li><a class="nav-link" href="./login.html">Login</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav aria-label:"breadcrumb">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+		
+		<li class="breadcrumb-item active" aria-current="page">Login</li>
+	</ol>
+	</nav>
+	
+	<div class="container">
+        <div class="row">
+            
+            <div class="ml-5"></div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>LOGIN</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter Email Id" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                            
+                                <input type="password" placeholder="Enter Password" class="form-control" />
+                            </div>
+							<div class="button-container">
+                            <input type="button" value="Login" class="styled-button" />
+							</div>
+					   </form>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+		
+		
+
+</body>
+
+
+
+</html>
